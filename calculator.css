@@ -1,17 +1,22 @@
 body{
-    background-color: #525252;
+     background-color:rgba(245, 245, 245, 0.886); 
 }
 i{
     float: right;
-    font-size: 48px;
+    font-size:48px;
     color:rgba(255, 0, 17, 0.684);
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+    font-size: 50px;
 }
 .container{
     padding: 30px;
-    border: 1px solid grey;
-    margin-top: 50px;
+    border: 2px solid grey;
+    margin-top: 80px;
     background: rgba(245, 245, 245, 0.886);
-    box-shadow:0 0 5px 5px #525252;
+    box-shadow:0 0 5px 5px black;
     border-radius: 10px;
 }
 .form-control{
@@ -28,16 +33,18 @@ i{
 }
 .btn{
     background-color:rgba(128, 128, 128, 0.829);
-    border-radius: 35%;
+    border-radius: 30px;
+    border: 2px solid rgba(128, 128, 128, 0.338);
 }
 .btn1{
     background-color:rgba(128, 128, 128, 0.338);
-    border-radius: 35%;
+    border-radius: 30px;
+    border: 2px solid grey;
 }
 .btn:hover{
     background-color:rgba(128, 128, 128, 0.338);
 }
 .btn1:hover{
-    background-color:rgba(255, 217, 0, 0.725);
+    background-color:rgba(255, 145, 0, 0.859); 
   
 }
